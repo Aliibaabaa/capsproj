@@ -1,0 +1,49 @@
+.h-navbar {
+    background-color: rgb(0, 0, 24);
+}
+
+#nav-list{
+    justify-content:space-around;
+    margin-left: auto;
+}
+
+.navlinkk {
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.input-group {
+    width:25%;
+    margin-right: 10px;
+}
+
+#searchbar{
+    border-radius: 0%;
+}
+
+.btn-outline-secondary {
+    margin: 0px 10px 0px -10px;
+    border-radius: 0%;
+}
+
+.signInBtn {
+    margin-left: 15px;
+}
+
+.joinBtn {
+    margin: 0 5px ;
+}
+
+.form-search-wrap {
+    position: relative;
+    width: 350px;
+}
+
+.w-100 {
+    width: 100%!important;
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
