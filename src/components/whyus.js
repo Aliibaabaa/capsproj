@@ -7,8 +7,9 @@ function Feat1() {
   return (
     <Container fluid>
       <Row>
-        <Col className='w-title'>WHY WORK WITH US
-          <div className='w-head'> loremqqqq</div>
+        <Col className='w-title'>
+          <h3>WHY WORK WITH US</h3>
+          <div className='w-head' > loremqqqq</div>
         </Col>
       </Row>
     </Container>

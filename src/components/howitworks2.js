@@ -51,7 +51,7 @@ function Feat2p2() {
      
       </Row>
 
-      <br/>  <br/> <br/>
+      <br/>  
 
       <Row xs={1} md={2}>
         <Col lg={4} className='hw-head'>  <div className='hwC-cont'> 
