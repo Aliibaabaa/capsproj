@@ -23,7 +23,7 @@ function TabsProto() {
       </Tab>
       <Tab eventKey="talent" title="Talent">
       <Link to="/talent">Talents</Link>
-    >
+      </Tab>
       <Tab eventKey="home" title="Home">
           </Tab>
       <Tab eventKey="profile" title="Profile">
