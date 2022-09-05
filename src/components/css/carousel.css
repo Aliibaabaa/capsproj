@@ -18,9 +18,10 @@
   .Head{
     text-align: center;
     margin-top: 2rem;
-    margin-bottom: -15rem;
+    margin-bottom: -8.5rem;
   
   }
   .Carousel{
     margin-bottom: 10rem;
+    vertical-align: middle;
   }
