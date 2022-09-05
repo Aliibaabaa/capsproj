@@ -1,5 +1,5 @@
 .h-navbar {
-    background-color: rgb(0, 0, 24);
+    background-color: rgb(3, 3, 50);
 }
 
 #nav-list{
@@ -10,6 +10,30 @@
 .navlinkk {
     padding: 10px;
     margin: 0 20px;
+}
+
+#nav-list a {
+    color: white;
+    font-size: 18px;
+    letter-spacing: .3px;
+    /* border: 2px solid red; */
+}
+
+#nav-list a:hover {
+    text-transform: uppercase;
+    background-color: #16415bce;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+#nav-list a:active {
+    text-transform: uppercase;
+    background-color: #16415bce;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 500;
+    border-bottom: 5px solid #5997bd;
 }
 
 .input-group {
@@ -28,6 +52,17 @@
 
 .signInBtn {
     margin-left: 15px;
+    font-size: 18px;
+    letter-spacing: .3px;
+}
+
+.signInBtn:hover {
+    text-transform: uppercase;
+    background-color: #16415bce;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 500;
+    color: white
 }
 
 .joinBtn {
@@ -36,14 +71,14 @@
 
 .form-search-wrap {
     position: relative;
-    width: 350px;
+    width: 400px;
 }
 
-.w-100 {
+/* .w-100 {
     width: 100%!important;
-}
+} */
 
-.align-items-center {
+/* .align-items-center {
     -ms-flex-align: center!important;
     align-items: center!important;
-}
+} */

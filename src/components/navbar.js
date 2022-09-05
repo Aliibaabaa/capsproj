@@ -45,7 +45,7 @@ function Navbarr() {
         <Form className="d-flex">y
             <Form.Control
               type="search"
-              placeholder="Search"
+              placeholder="Search for Services/Talents "
               className="me-2" 
               id="searchbar"
               aria-label="Search"

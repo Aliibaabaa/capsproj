@@ -1,4 +1,4 @@
-
+/* 
 .App {
   text-align: center;
 }
@@ -27,7 +27,7 @@
 
 .App-link {
   color: #61dafb;
-}
+} 
 
 @keyframes App-logo-spin {
   from {
@@ -37,12 +37,21 @@
     transform: rotate(360deg);
   }
 }
+*/
+/* 
+.feat-cont:before {
+  background-image: url(./components/images/bg.jpg);
+  background-size: cover;
+  background-blend-mode: screen;
+  opacity: 0.6;
+  background-position: 50% 0;
 
+} */
 
 .tag {
   opacity: 0;
-  transform: translate(0, 10vh);
-  transition: all 1.5s;
+  transform: translate(0, 10vh); /*section elements to slide into view*/
+  transition: all 2s;
 }
 
 .tag.visible {

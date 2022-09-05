@@ -7,10 +7,11 @@ import Image from 'react-bootstrap/Image'
 import Table from 'react-bootstrap/Table';
 import hwC from '../components/images/hwC...jpg'
 import hwT from '../components/images/hwC.jfif'
+import Button from 'react-bootstrap/Button';
 
 function Feat2p2() {
   return (
-    <Container fluid>
+    <Container >
       <Row xs={1} md={2}>
         <Col lg={8} className='hw-head'>For Clients
         <Stack gap={1}>
@@ -91,6 +92,10 @@ function Feat2p2() {
         </Col>
       </Row>
 
+      <br/>
+      <Row>
+          <Button variant="outline-secondary" className="seebtn">See More</Button> 
+      </Row>
       <br/>  <br/>  <br/>
 
     </Container>

@@ -3,14 +3,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Stack from 'react-bootstrap/Stack';
+import Button from 'react-bootstrap/Button';
 
 function Feat1p2() {
   return (
-    <Container fluid>
+    <Container>
       <Row>
         <Col lg={true} className='t-head'>For Clients
         <Stack gap={1}>
-          <div className="satck bg-light border">First item</div>
+          <div className="satck ">First item</div>
           <div className="satck bg-light border">Second item</div>
           <div className="satck bg-light border">Third item</div>
       </Stack>
@@ -23,7 +24,14 @@ function Feat1p2() {
       </Stack>
     </Col>
       </Row>
+      <br/>
+      <Row>
+          <Button variant="outline-secondary" className="seebtn">See More</Button> 
+      </Row>
+      <br/> <br/>
     </Container>
+
+    
   );
 }
 
