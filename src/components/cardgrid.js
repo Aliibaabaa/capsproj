@@ -1,5 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 import Card1 from './cardsu';
 import Card2 from './cardsu2';
 import Card3 from './cardsu3';
@@ -14,60 +15,155 @@ import React, { Component } from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import "./css/carousel.css";
 import Stack from 'react-bootstrap/Stack';
+import Slider from "react-slick";
+import "./css/slick.css"
+
 // import OwlCarousel from 'react-owl-carousel';
 // import 'owl.carousel/dist/assets/owl.carousel.css';
 // import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 // import './css/gridu.css'
 
-function CardGrid() {
-  
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
   return (
-    <>
-    <div className ="Head"><h1>Our Services</h1></div>
-        <Carousel fade control>
-          <Carousel.Item>
-    
-          <div className="d-block w-100" style={{height:'100vh',width:'100%',aspectRatio:'1/1'}}  alt="First slide"/>
-    
-            <Carousel.Caption style={{bottom:'8rem',textShadow: '2px 2px black'}}>
-            <Container>
-      <Stack direction="horizontal" style={{justifyContent:'center'}}  gap={5} >
-        <Col md ={'auto'}><Card1 /></Col>
-        <Col md ={'auto'}><Card2 /></Col>
-        <Col md ={'auto'}><Card3 /></Col>
-        <Col md ={'auto'}><Card4 /></Col>
-      
-        
-      </Stack>
-    </Container>
-            </Carousel.Caption>
-          </Carousel.Item>
-    
-          <Carousel.Item >
-    
-            <div
-              className="d-block w-100"
-              style={{height:'100vh',width:'100%',aspectRatio:'1/1'}} 
-              alt="Second slide"
-            />
-    
-            <Carousel.Caption style={{bottom:'8rem',textShadow: '2px 2px black'}}>
-            <Container>
-
-        <Stack direction="horizontal" style={{justifyContent:'center'}}  gap={5} >
-        <Col md ={'auto'}><Card5 /></Col>
-        <Col md={'auto'}><Card6 /></Col>
-        <Col md={'auto'}><Card7 /></Col>
-        <Col md={'auto'}><Card9 /></Col>
-      
-      </Stack>
-    </Container>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-        </>
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "black" }}
+      onClick={onClick}
+    />
   );
 }
 
-export default CardGrid;
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "black" }}
+      onClick={onClick}
+    />
+  );
+}
+
+export default class Responsive extends Component {
+render() {
+
+      var settings = {
+       
+      dots: true,
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      // autoplay: true,
+      speed: 1000,
+      // autoplaySpeed: 2000,
+      // cssEase: "linear",
+      margin:'auto',
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: false
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      };
+      return (
+        <div className="Div" >
+          <div className="Services">
+          <h2> SERVICES OFFERED </h2>
+          </div>
+          <Slider className="SSlider" {...settings} style ={{ margin:'1rem auto 0'}}>
+          <div className="Div"><Card1 /></div>
+          <div className="Div"><Card2 /></div>
+          <div className="Div"><Card3 /></div>
+          <div className="Div"><Card4 /></div>
+          <div className="Div"><Card5 /></div>
+          <div className="Div"><Card6 /></div>
+          <div className="Div"><Card7 /></div>
+          <div className="Div"><Card9 /></div>
+          </Slider>
+          </div>
+      );
+    }
+  }
+  
+  
+//     <>
+    
+//         <Carousel fade control md>
+        
+//           <Carousel.Item >
+//           <Row className="justify-content-md-center" s md="12" {...options}>
+//         <Col s md="3">
+//         <h1>Our Services</h1>
+//         </Col>
+//         </Row>
+//           <div className="d-block w-100" style={{height:'100vh',width:'100%',aspectRatio:'1/1'}}  alt="First slide"/>
+    
+//             <Carousel.Caption style={{textShadow: '2px 2px black'}}>
+//             <Container fluid = "md">
+//       <Stack direction="horizontal" style={{justifyContent:'center'}}  className="col-md-5 mx-auto"  gap={5} >
+//         <div  className="d-block w-100"><Card1 /></div>
+//         <div  className="d-block w-100"><Card2 /></div>
+//         <div className="d-block w-100"><Card3 /></div>
+//         <div className="d-block w-100"><Card4 /></div>
+      
+        
+//       </Stack>
+//     </Container>
+//             </Carousel.Caption>
+//           </Carousel.Item>
+    
+//           <Carousel.Item >
+//           <Row className="justify-content-md-center" s md="12" {...options}>
+//         <Col a md="3">
+//           <h1>Our Services</h1>
+//         </Col>
+//         </Row>
+//             <div
+//               className="d-block w-100"
+//               style={{height:'100vh',width:'100%',aspectRatio:'1/1'}} 
+//               alt="Second slide"
+//             />
+    
+//             <Carousel.Caption style={{textShadow: '2px 2px black'}}>
+//             <Container fluid = "md">
+
+//         <Stack direction="horizontal" style={{justifyContent:'center'}}  className="col-md-5 mx-auto"  gap={5} >
+//         <div className="d-block w-100"><Card5 /></div>
+//         <div  className="d-block w-100"><Card6 /></div>
+//         <div className="d-block w-100"><Card7 /></div>
+//         <div className="d-block w-100"><Card9 /></div>
+      
+//       </Stack>
+//     </Container>
+//             </Carousel.Caption>
+//           </Carousel.Item>
+//         </Carousel>
+//         </>
+//   );
+// }
+
+// export default CardGrid;

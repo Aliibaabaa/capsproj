@@ -1,11 +1,12 @@
 .card{
     color: green;
     padding: 10rem 0rem 0rem 0rem;
-    max-width: 27ch;
+    max-width: 30ch;
     /* border-radius: 0.5rem; */
     overflow:hidden;
     transition:transform 500ms ease;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 50ch;
 
 
 }
@@ -16,7 +17,7 @@
 
 }
 .card-content{
-    --padding: 0.5rem;
+    --padding: .5rem;
     padding: var(--padding);
     background: linear-gradient(
         hsl(0 0% 0%/ 0),
@@ -24,6 +25,7 @@
         hsl(0 0% 0%/ 1)
     );
     height:100%;
+    text-align:center;
 }
 
 .card-title{
@@ -37,11 +39,11 @@
     content: "";
     position: absolute;
     height:4px;
-    left: calc(var(--padding) * -1 );
+    left: calc(var(--padding) * -.5 );
     bottom:-3px;
     width:calc(100% + var(--padding));
     background:rgb(9, 37, 162);
-    transform-origin: left;
+    transform-origin: center;
     transition: transform 500ms ease;
 
 }

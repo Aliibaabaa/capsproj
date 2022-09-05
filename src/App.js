@@ -11,6 +11,7 @@ import CardGrid from './components/cardgrid';
 // import BasicExample from  './components/cardsu';
 import TestiMonials from './components/TestiMonials';
 import $ from 'jquery';
+import TabsProto from './components/tabs'; 
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
     <>
     <nav>
       <Navbarr />
+      <TabsProto />
     </nav>
 
     <header>
