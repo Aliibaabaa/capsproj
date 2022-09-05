@@ -9,8 +9,6 @@ import TestiMonials from './components/TestiMonials';
 
 
 
-
-
 function App() {
   return (
     <>

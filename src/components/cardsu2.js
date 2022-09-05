@@ -1,6 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Himage3 from "./Images/gandd.jpg";
+import Himage3 from "./images/gandd.jpg";
 import './css/cardsu.css'
 import React from 'react';
 
@@ -16,7 +16,7 @@ function Card2() {
     <Card className = "card" style={sectionStyle}>
     
       <Card.Body className = "card-content">
-        <Card.Title className = "card-title">Graphics & Design</Card.Title>
+        <Card.Title className = "card-title">Graphics and Design</Card.Title>
         <Card.Text className = "card-body">
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
