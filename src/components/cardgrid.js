@@ -23,8 +23,8 @@ import Stack from 'react-bootstrap/Stack';
 function CardGrid() {
   
   return (
-
-
+    <>
+    <div className ="Head"> <h1>Our Services</h1></div>
         <Carousel fade control>
           <Carousel.Item>
     
@@ -66,6 +66,7 @@ function CardGrid() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+        </>
   );
 }
 
