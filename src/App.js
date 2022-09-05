@@ -11,7 +11,7 @@ import CardGrid from './components/cardgrid';
 // import BasicExample from  './components/cardsu';
 import TestiMonials from './components/TestiMonials';
 import $ from 'jquery';
-import TabsProto from './components/tabs'; 
+import JustifiedExample from './components/tabs2'; 
 
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
     <>
     <nav>
       <Navbarr />
-      <TabsProto />
+      
     </nav>
 
     <header>
@@ -55,6 +55,7 @@ function App() {
           
       <div className='feat-cont'>
         <div className="tag">
+        <JustifiedExample />
             <Feat1/>
             <Feat1p2/>
         </div>
