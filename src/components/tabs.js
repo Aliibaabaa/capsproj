@@ -8,7 +8,6 @@ import {
   } from "react-router-dom";
 
 
-
 function TabsProto() {
   return (
    <Router>
@@ -23,16 +22,6 @@ function TabsProto() {
       </Tab>
       <Tab eventKey="talent" title="Talent">
       <Link to="/talent">Talents</Link>
-      </Tab>
-      <Tab eventKey="home" title="Home">
-          </Tab>
-      <Tab eventKey="profile" title="Profile">
-
-      </Tab>
-      <Tab eventKey="longer-tab" title="Loooonger Tab">
-
-      </Tab>
-      <Tab eventKey="contact" title="Contact" disabled>
       </Tab>
       <Routes>
           <Route exact path="/" element={<Clients />}/>
