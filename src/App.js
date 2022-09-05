@@ -12,6 +12,7 @@ import CardGrid from './components/cardgrid';
 import TestiMonials from './components/TestiMonials';
 import $ from 'jquery';
 import TabsProto from './components/tabs'; 
+import JustifiedExample from './components/tabs2';
 
 
 function App() {
@@ -37,7 +38,6 @@ function App() {
     <>
     <nav>
       <Navbarr />
-      <TabsProto />
     </nav>
 
     <header>
@@ -51,6 +51,7 @@ function App() {
       <hr/>
 
       <div className="tag">
+        <JustifiedExample/>
         <Feat1/>
         <Feat1p2/>
       </div>
