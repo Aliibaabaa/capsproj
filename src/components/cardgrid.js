@@ -24,7 +24,7 @@ function CardGrid() {
   
   return (
     <>
-    <div className ="Head"> <h1>Our Services</h1></div>
+    <div className ="Head"><h1>Our Services</h1></div>
         <Carousel fade control>
           <Carousel.Item>
     
