@@ -5,7 +5,7 @@
     /* border-radius: 0.5rem; */
     overflow:hidden;
     transition:transform 500ms ease;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
     height: 50ch;
 
 
@@ -33,7 +33,9 @@
     text-align:center;
     width: max-content;
     font-size: 20px;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px 2px #000000;
+    text-transform:uppercase;
+    color:white
 }
 
 .card-title::after{
@@ -43,9 +45,9 @@
     left: calc(var(--padding) * -.5 );
     bottom:-3px;
     width:calc(100% + var(--padding));
-    background:rgb(9, 37, 162);
+    background:rgb(15, 98, 167);
     transform-origin: center;
-    transition: transform 500ms ease;
+    transition: transform 500ms ease-in-out;
 
 }
 
