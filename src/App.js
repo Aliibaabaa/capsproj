@@ -12,10 +12,11 @@ import CardGrid from './components/cardgrid';
 import TestiMonials from './components/TestiMonials';
 import $ from 'jquery';
 import TabsProto from './components/tabs'; 
-import JustifiedExample from './components/tabs2';
 
 
 function App() {
+// When the user begins to scroll, the code detects the top and bottom of the viewport, then checks each tag section element for whether the tag is inside the viewport (i.e., visible on the screen).
+// If the section element is in view, it assigns it the class visible (which, if you’ll remember, has an opacity of 1). If the section element is not in view, it removes the visible class from this section element.
 
   $(document).on("scroll", function() {
     var pageTop = $(document).scrollTop();
@@ -38,6 +39,7 @@ function App() {
     <>
     <nav>
       <Navbarr />
+      <TabsProto />
     </nav>
 
     <header>
@@ -45,20 +47,22 @@ function App() {
     </header>
     
     <main>
-    <div className="tag">
-      <CardGrid />
-    </div>
-      <hr/>
-
-      <div className="tag">
-        <JustifiedExample/>
-        <Feat1/>
-        <Feat1p2/>
-      </div>
-      <br/>
-      <div className="tag">
-        <Feat2/>
-        <Feat2p2/>
+   
+        <div className="tag">
+            <CardGrid />
+        </div>
+          <br/> 
+          
+      <div className='feat-cont'>
+        <div className="tag">
+            <Feat1/>
+            <Feat1p2/>
+        </div>
+          <br/>
+        <div className="tag">
+            <Feat2/>
+            <Feat2p2/>
+        </div>
       </div>
 
       <div className="tag">
