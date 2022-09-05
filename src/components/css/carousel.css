@@ -15,3 +15,12 @@
     padding: 2px;
     background-repeat: no-repeat;
   }
+  .Head{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: -5rem;
+  
+  }
+  .Carousel{
+    margin-bottom: 10rem;
+  }

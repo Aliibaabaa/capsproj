@@ -23,14 +23,14 @@ import Stack from 'react-bootstrap/Stack';
 function CardGrid() {
   
   return (
-
-
+    <>
+    <div className ="Head"> <h1>Our Services</h1></div>
         <Carousel fade control>
           <Carousel.Item>
     
           <div className="d-block w-100" style={{height:'100vh',width:'100%',aspectRatio:'1/1'}}  alt="First slide"/>
     
-            <Carousel.Caption style={{bottom:'4rem',textShadow: '2px 2px black'}}>
+            <Carousel.Caption style={{bottom:'8rem',textShadow: '2px 2px black'}}>
             <Container>
       <Stack direction="horizontal" style={{justifyContent:'center'}}  gap={5} >
         <Col md ={'auto'}><Card1 /></Col>
@@ -52,7 +52,7 @@ function CardGrid() {
               alt="Second slide"
             />
     
-            <Carousel.Caption style={{bottom:'4rem',textShadow: '2px 2px black'}}>
+            <Carousel.Caption style={{bottom:'8rem',textShadow: '2px 2px black'}}>
             <Container>
 
         <Stack direction="horizontal" style={{justifyContent:'center'}}  gap={5} >
@@ -66,6 +66,7 @@ function CardGrid() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+        </>
   );
 }
 
