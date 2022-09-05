@@ -11,9 +11,10 @@ function Feat1p2() {
       <Row>
         <Col lg={true} className='t-head'>For Clients
         <Stack gap={1}>
-          <div className="satck ">First item</div>
-          <div className="satck bg-light border">Second item</div>
-          <div className="satck bg-light border">Third item</div>
+          <div className="satck ">Proof of Quality</div>
+          <div className="satck bg-light border">Safe and Secure</div>
+          <div className="satck bg-light border">Take the fastlane to the right talent</div>
+          <div className="satck bg-light border">24/7 support</div>
       </Stack>
     </Col>
         <Col lg={true} className='t-head'>For Talents

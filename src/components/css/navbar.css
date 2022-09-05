@@ -2,6 +2,12 @@
     background-color: rgb(3, 3, 50);
 }
 
+.logo {
+    height: auto;
+    width: 110px;
+    vertical-align: middle;
+}
+
 #nav-list{
     justify-content:space-around;
     margin-left: auto;
@@ -22,16 +28,16 @@
 #nav-list a:hover {
     text-transform: uppercase;
     background-color: #16415bce;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 3px;
+    padding: 6px;
     font-weight: 500;
 }
 
 #nav-list a:active {
     text-transform: uppercase;
     background-color: #16415bce;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 3px;
+    padding: 6px;
     font-weight: 500;
     border-bottom: 5px solid #5997bd;
 }
