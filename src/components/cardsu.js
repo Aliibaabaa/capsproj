@@ -10,6 +10,7 @@ var sectionStyle = {
   width: '18rem',
   backgroundSize: 'cover',
   backgroundPosition:'center',
+  
 }
 
 function Card1() {
