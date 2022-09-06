@@ -5,7 +5,7 @@
     margin:1rem auto 0 ;
 }
  .Div{
-    margin:1rem auto 0 ;}
+    margin:1rem 1rem 0 3rem;}
 
 .Services{
     text-align: center;
@@ -21,17 +21,17 @@
     font-family: 'Montserrat', sans-serif;
 }
   /* the slides */
-  .slick-slide {
+  /* .slick-slide {
     margin:0 10px;
-}
+} */
 
 /* the parent */
-.slick-list {
+/* .slick-list {
     width: 100%;
     justify-content:center;
     border: 1px solid black;
     margin:0 -10px;
-}
+} */
 .SSlider{
     /* justify-content: center; */
     /* margin:auto;left:3.5rem; */
