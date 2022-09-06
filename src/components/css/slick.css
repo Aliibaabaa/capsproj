@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Special+Elite&display=swap');
+
 .slide {
     margin:auto;left:auto;}
  .Div{
@@ -6,18 +8,21 @@
 .Services{
     text-align: center;
     margin-bottom:1rem;
-    border:2px dashed red;
+    /* border:2px dashed red; */
     padding: 1rem;
-    letter-spacing: .7rem;
-    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: .6rem;
+    /* font-family: 'Roboto Condensed', sans-serif;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 20px; */
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .SSlider{
     /* justify-content: center; */
     /* margin:auto;left:3.5rem; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 1rem;
 }
 .slick-prev {

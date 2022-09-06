@@ -9,19 +9,20 @@ function Feat1p2() {
   return (
     <Container>
       <Row>
-        <Col lg={true} className='t-head'>For Clients
+        <Col lg={true} className='t-head '>For Clients
         <Stack gap={1}>
-          <div className="satck ">Proof of Quality</div>
-          <div className="satck bg-light border">Safe and Secure</div>
-          <div className="satck bg-light border">Take the fastlane to the right talent</div>
-          <div className="satck bg-light border">24/7 support</div>
+          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> Proof of Quality</div>
+          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> Safe and Secure</div>
+          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> Take the fastlane to the right talent</div>
+          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> 24/7 support</div>
       </Stack>
     </Col>
-        <Col lg={true} className='t-head'>For Talents
+        <Col lg={true} className='t-head bg-light border'>For Talents
         <Stack gap={1}>
-          <div className="satck bg-light border">First item</div>
-          <div className="satck bg-light border">Second item</div>
-          <div className="satck bg-light border">Third item</div>
+          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Learn as you work</div>
+          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Grow your career</div>
+          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Let the work find you</div>
+          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Find support</div>
       </Stack>
     </Col>
       </Row>

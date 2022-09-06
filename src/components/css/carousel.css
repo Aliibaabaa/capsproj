@@ -25,3 +25,18 @@
     margin-bottom: 10rem;
     vertical-align: middle;
   }
+
+  .car-searchbtn {
+    background-color: #030332;
+    color: white;
+    font-size: 18px;
+    letter-spacing: .3px;
+  }
+
+  .car-searchbtn:hover  {
+    text-transform: uppercase;
+    background-color: #16415be8;
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: 500;
+  }

@@ -78,7 +78,7 @@ function Navbarr() {
           </Nav>*/}
        
 
-        <Form className="d-flex">y
+        {/* <Form className="d-flex">y
             <Form.Control
               type="search"
               placeholder="Search for Services/Talents "
@@ -87,14 +87,14 @@ function Navbarr() {
               aria-label="Search"
            /> 
             <Button variant="outline-secondary" className="searchbtn">Search</Button> 
-          </Form>
+          </Form> */}
 
       {/* <Button variant="light" className='signInBtn'>Sign In</Button> */}
       {/* <Button variant="light" className='joinBtn'>Join</Button> */}
 
     <>
       <Button variant="light" className='signInBtn' onClick={() => setModalShow(true)}>
-       Sign In
+       Log in
       </Button>
 
       <MyVerticallyCenteredModal
