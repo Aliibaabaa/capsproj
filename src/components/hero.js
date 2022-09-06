@@ -20,11 +20,11 @@ function HeroSection() {
           <Form className="d-flex">
             <Form.Control
               type="search"
-              placeholder="Search"
+              placeholder="Search for Services/Talents"
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button className="car-searchbtn" variant="outline">Search</Button>
           </Form>
         </Carousel.Caption>
       </Carousel.Item>
@@ -43,11 +43,11 @@ function HeroSection() {
           <Form className="d-flex">
             <Form.Control
               type="search"
-              placeholder="Search"
+              placeholder="Search for Services/Talents"
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button className="car-searchbtn" variant="outline"> Search</Button>
           </Form>
         </Carousel.Caption>
       </Carousel.Item>
@@ -68,11 +68,11 @@ function HeroSection() {
           <Form className="d-flex">
             <Form.Control
               type="search"
-              placeholder="Search"
+              placeholder="Search for Services/Talents"
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="success">Search</Button>
+            <Button className="car-searchbtn" variant="outline">Search</Button>
           </Form>
         </Carousel.Caption>
       </Carousel.Item>

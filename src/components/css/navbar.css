@@ -1,5 +1,11 @@
 .h-navbar {
-    background-color: rgb(3, 3, 50);
+    background-color: #030332;
+}
+
+.logo {
+    height: auto;
+    width: 110px;
+    vertical-align: middle;
 }
 
 #nav-list{
@@ -9,7 +15,7 @@
 
 .navlinkk {
     padding: 10px;
-    margin: 0 20px;
+    margin: 0 40px;
 }
 
 #nav-list a {
@@ -21,17 +27,18 @@
 
 #nav-list a:hover {
     text-transform: uppercase;
-    background-color: #16415bce;
-    border-radius: 5px;
-    padding: 5px;
+    /* background-color: #16415bce; */
+    background-color: #008b8b7e;
+    border-radius: 3px;
+    padding: 10px;
     font-weight: 500;
 }
 
 #nav-list a:active {
     text-transform: uppercase;
     background-color: #16415bce;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 3px;
+    padding: 10px;
     font-weight: 500;
     border-bottom: 5px solid #5997bd;
 }

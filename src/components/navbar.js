@@ -7,7 +7,9 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 import React from 'react';
-import InputGroup from 'react-bootstrap/InputGroup';
+//import InputGroup from 'react-bootstrap/InputGroup';
+import logoo1 from '../components/images/logoo2.png'
+import Image from 'react-bootstrap/Image'
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -43,13 +45,15 @@ function Navbarr() {
   return (
     <Navbar collapseOnSelect expand="lg"  variant="dark" id="nav-cont" className='h-navbar'>
       <Container>
-        <Navbar.Brand href="#home">PROJECT NAME</Navbar.Brand>
+        <Navbar.Brand href="#home">
+            <Image className="logo" src={logoo1} responsive/>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" id="nav-list">
             <Nav.Link href="#home" className='navlinkk'>Home</Nav.Link>
-            <Nav.Link href="#careers" className='navlinkk'>Find Talents</Nav.Link>
-            <Nav.Link href="#careers" className='navlinkk'>Join our Team</Nav.Link>
+            <Nav.Link href="#findTalents" className='navlinkk'>Find Talents</Nav.Link>
+            <Nav.Link href="#joinTeam" className='navlinkk'>Join our Team</Nav.Link>
             <Nav.Link href="#aboutUs" className='navlinkk'>About Us</Nav.Link>
           
             {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
@@ -74,7 +78,7 @@ function Navbarr() {
           </Nav>*/}
        
 
-        <Form className="d-flex">y
+        {/* <Form className="d-flex">y
             <Form.Control
               type="search"
               placeholder="Search for Services/Talents "
@@ -83,14 +87,14 @@ function Navbarr() {
               aria-label="Search"
            /> 
             <Button variant="outline-secondary" className="searchbtn">Search</Button> 
-          </Form>
+          </Form> */}
 
       {/* <Button variant="light" className='signInBtn'>Sign In</Button> */}
       {/* <Button variant="light" className='joinBtn'>Join</Button> */}
 
     <>
       <Button variant="light" className='signInBtn' onClick={() => setModalShow(true)}>
-       Sign In
+       Log in
       </Button>
 
       <MyVerticallyCenteredModal

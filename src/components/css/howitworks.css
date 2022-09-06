@@ -48,7 +48,7 @@
     text-align: center;
     justify-content: center;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 22px;
     /* border: 2px dashed violet; */
     font-family: 'Architects Daughter', cursive;
     z-index: 4;
@@ -58,6 +58,7 @@
     width: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    font-size: 19px;
 }
 
 .hwC-cont {
