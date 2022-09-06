@@ -50,16 +50,17 @@ export default class Responsive extends Component {
 render() {
 
       var settings = {
-       
       dots: false,
       infinite: true,
       slidesToShow: 4,
-      slidesToScroll: 1,
+      slidesToScroll: 4,
       // autoplay: true,
       speed: 1000,
       // autoplaySpeed: 2000,
       // cssEase: "linear",
-      margin:'auto',
+      centerMode: true,
+      gap:5,
+    
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
         responsive: [
@@ -90,19 +91,19 @@ render() {
         ]
       };
       return (
-        <div className="Div" >
+        <div className="Div" style ={{ margin:'1rem auto 0'}}>
           <div className="Services">
           <h2> SERVICES OFFERED </h2>
           </div>
-          <Slider className="SSlider" {...settings} style ={{ margin:'1rem auto 0'}}>
-          <div className="Div"><Card1 /></div>
-          <div className="Div"><Card2 /></div>
-          <div className="Div"><Card3 /></div>
-          <div className="Div"><Card4 /></div>
-          <div className="Div"><Card5 /></div>
-          <div className="Div"><Card6 /></div>
-          <div className="Div"><Card7 /></div>
-          <div className="Div"><Card9 /></div>
+          <Slider className="SSlider" {...settings} style ={{ display: 'flex',justifyContent: 'center'}}>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card1 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card2 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card3 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card4 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card5 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card6 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card7 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card9 /></div>
           </Slider>
           </div>
       );

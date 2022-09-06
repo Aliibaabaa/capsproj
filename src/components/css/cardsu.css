@@ -7,7 +7,7 @@
     transition:transform 500ms ease;
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
     height: 50ch;
-
+    margin-right: 10rem;
 
 }
 
@@ -30,6 +30,7 @@
 
 .card-title{
     position: relative;
+    text-align:center;
     width: max-content;
     font-size: 20px;
     text-shadow: 2px 2px 2px #000000;
