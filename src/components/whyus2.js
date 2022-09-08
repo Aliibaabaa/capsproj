@@ -5,9 +5,15 @@ import Col from 'react-bootstrap/Col';
 import Stack from 'react-bootstrap/Stack';
 import Button from 'react-bootstrap/Button';
 
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 function Feat1p2() {
+  let navigate = useNavigate();
   return (
+   
     <Container>
+    
       <Row>
         <Col lg={true} className='t-head '>For Clients
         <Stack gap={1}>
@@ -28,7 +34,17 @@ function Feat1p2() {
       </Row>
       <br/>
       <Row>
-          <Button variant="outline-secondary" className="seebtn">See More</Button> 
+
+       
+         {/* <button 
+         onClick={() =>{
+          navigate("/seemore");
+        }} >
+          see more
+        </button> */}
+        <Button variant="outline-secondary" className="seebtn"><Link to ="/seemore">seemore</Link></Button>
+          
+
       </Row>
       <br/> <br/>
     </Container>
