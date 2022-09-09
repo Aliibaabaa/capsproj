@@ -10,6 +10,7 @@ import React from 'react';
 //import InputGroup from 'react-bootstrap/InputGroup';
 import logoo1 from '../components/images/logoo2.png'
 import Image from 'react-bootstrap/Image'
+import { Link } from "react-router-dom";
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -51,10 +52,10 @@ function Navbarr() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" id="nav-list">
-            <Nav.Link href="#home" className='navlinkk'>Home</Nav.Link>
+            <Link to="/" className='navlinkk'>Home</Link>
             <Nav.Link href="#findTalents" className='navlinkk'>Find Talents</Nav.Link>
             <Nav.Link href="#joinTeam" className='navlinkk'>Join our Team</Nav.Link>
-            <Nav.Link href="#aboutUs" className='navlinkk'>About Us</Nav.Link>
+            <Link to="/seemore" className='navlinkk'>About Us</Link>
           
             {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

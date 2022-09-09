@@ -7,7 +7,9 @@ import {
     Link
   } from "react-router-dom";
 
+  import {ClientInfo,TalentInfo} from './seemorepages2';
 
+  
 function TabsProto() {
   return (
    <Router>
@@ -37,7 +39,7 @@ function TabsProto() {
 function Clients() {
     return (
       <div>
-        <h2>Client</h2>
+        <ClientInfo />
       </div>
     );
   }
@@ -45,7 +47,7 @@ function Clients() {
   function Talents() {
     return (
       <div>
-        <h2>About</h2>
+       <TalentInfo />
       </div>
     );
   }
