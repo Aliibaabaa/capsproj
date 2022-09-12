@@ -1,5 +1,7 @@
+import '../components/css/tabs.css';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+
 
 import{ 
     Clients, Talents} from './tabs';
@@ -7,21 +9,23 @@ import{
 
 function JustifiedExample() {
   return (
+    
     <Tabs
-      defaultActiveKey="profile"
-      id="justify-tab-example"
-      className="mb-3"
+      defaultActiveKey="profile" id="justify-tab-example" className="mb-3"
       justify
     >
       <ClientInfo/>
-      <Tab eventKey="client" title="Clients">
+
+      <Tab eventKey="client" title="FOR CLIENTS">
         <Clients />
         
        
       </Tab>
-      <Tab eventKey="talent" title="Talents">
+      <Tab eventKey="talent" title="FOR TALENTS">
       <Talents />
       </Tab>
+
+
       {/* <Tab eventKey="longer-tab" title="Loooonger Tab">
         <Feat2 />
       </Tab>
