@@ -15,7 +15,7 @@ function Seemore() {
         <source src={bv} type="video/mp4" />
       </video>
     </div>
-  </header>
+</header>
   <main>
           <br/>  <JustifiedExample />
     </main>
