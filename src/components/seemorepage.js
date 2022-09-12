@@ -17,7 +17,7 @@ function Seemore() {
     </div>
 </header>
   <main>
-          <br/>  <JustifiedExample />
+          <JustifiedExample />
     </main>
     </>
   );

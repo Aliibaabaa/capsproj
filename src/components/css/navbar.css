@@ -2,7 +2,7 @@
 
 .h-navbar {
     background-color: #030332;
-    /* position: fixed; */
+    position: fixed;
     z-index: 10;
     margin:0;
     width: 100%;
