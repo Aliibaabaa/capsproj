@@ -15,20 +15,20 @@ function Feat1p2() {
     <Container>
     
       <Row>
-        <Col lg={true} className='t-head '>For Clients
+        <Col lg={true} className='t-head bg-light border'>For Clients
         <Stack gap={1}>
-          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> Proof of Quality</div>
-          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> Safe and Secure</div>
-          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> Take the fastlane to the right talent</div>
-          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> 24/7 support</div>
+          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Proof of Quality</div>
+          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Safe and Secure</div>
+          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Take the fastlane to the right talent</div>
+          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> 24/7 support</div>
       </Stack>
     </Col>
-        <Col lg={true} className='t-head bg-light border'>For Talents
+        <Col lg={true} className='t-head '>For Talents
         <Stack gap={1}>
-          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Learn as you work</div>
-          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Grow your career</div>
-          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Let the work find you</div>
-          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Find support</div>
+          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> Learn as you work</div>
+          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> Grow your career</div>
+          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> Let the work find you</div>
+          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> Find support</div>
       </Stack>
     </Col>
       </Row>

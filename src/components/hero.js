@@ -12,7 +12,7 @@ function HeroSection() {
     <Carousel fade controls={false} indicators ={false}>
       <Carousel.Item interval={1000}>
 
-      <img  className="d-block w-100" style={{height:'100vh',width:'100%',aspectRatio:'1/1'}} src={Himage }  alt="First slide"/>
+      <img className="d-block w-100" style={{height:'100vh',width:'100%',aspectRatio:'1/1'}} src={Himage }  alt="First slide"/>
 
         <Carousel.Caption style={{bottom:'10rem',textShadow: '2px 2px black'}}>
           <h1>First slide label</h1>
