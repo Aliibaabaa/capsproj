@@ -20,6 +20,7 @@ import {
 } from "react-router-dom";
 import Seemore from "./components/seemorepage";
 import Home from "./components/Home"
+import AboutUs from "./components/about"
 
 
 
@@ -63,8 +64,11 @@ function App() {
       {/* <Home /> */}
       <Routes>
         
-    <Route path="/seemore" element={ <Seemore/> } />
+    
     <Route path="/" element={ <Home/> } />
+    <Route path="/aboutus" element={ <AboutUs/> } />
+    <Route path="/seemore" element={ <Seemore/> } />
+    
       </Routes>
     </main>
 

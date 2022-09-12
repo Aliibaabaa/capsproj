@@ -3,7 +3,7 @@ import Tabs from 'react-bootstrap/Tabs';
 
 import{ 
     Clients, Talents} from './tabs';
-    import {ClientInfo, TalentInfo} from './seemorepages2'
+    // import {ClientInfo, TalentInfo} from './seemorepages2'
 
 function JustifiedExample() {
   return (
@@ -13,12 +13,13 @@ function JustifiedExample() {
       className="mb-3"
       justify
     >
-      <ClientInfo/>
+      
       <Tab eventKey="client" title="Clients">
         <Clients />
         
        
       </Tab>
+      
       <Tab eventKey="talent" title="Talents">
       <Talents />
       </Tab>
