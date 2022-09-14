@@ -17,13 +17,13 @@ const TestiMonials = () => {
         {
             name: 'Elon Musk',
             description: '"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s."',
-            address: 'Tesla Ceo',
+            address: 'CEO - Tesla',
             img: Elon
         },
         {
             name: 'Bill Gates',
             description: '"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s."',
-            address: 'Microsoft Ceo',
+            address: 'CEO - Microsoft',
             img: Bill
         },
         {
