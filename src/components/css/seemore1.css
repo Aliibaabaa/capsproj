@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 /* .hero2 {
     width: 100%;
     /* height: 100vh; 
@@ -11,6 +13,7 @@
     background-color: transparent;
      background: url(../images/bv2.mp4);
     background-size: cover; }  */
+
 
 
 .bv {
@@ -72,17 +75,18 @@
 .s-head {
     justify-content: center;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 26px;
     letter-spacing: .10em; 
     /* border: 2px dashed violet; */
     font-family: 'Architects Daughter', cursive;
     text-shadow: 2px 2px 3px #0a0a0a73;
     /* margin-left: -20px; */
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color:#455574;
+    margin-top: 10px;
 }
 
-.stackk {
+.stackk , .satckk {
     width: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -92,6 +96,14 @@
     text-shadow: 3px 3px 4px #0a0a0a4c;
     z-index: 5;
     /* background-color: beige; */
+}
+
+
+.satckk {
+    background-color: #030332;
+    color:whitesmoke;
+    border-radius: 10px;
+    box-shadow: 4px 6px 3px #0a0a0a8b;
 }
 
 .stack-p {
@@ -120,7 +132,7 @@
     padding-top: 50px;
     padding-bottom: 15px;
     border-radius: 50px;
-    margin-top: -20px;
+    margin-top: -23px;
     z-index: -99;
 }
 
@@ -153,4 +165,36 @@
     margin-left: 45%;
     margin-right: auto;
     margin-top: 15px;
+}
+
+.num {
+    font-size: 28px;
+    font-weight: 800;
+    font-family: 'Lobster', cursive;
+}
+
+.t-num {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .7px;
+    text-transform:uppercase; 
+}
+
+.t-headd {
+    text-align: center;
+    justify-content: center;  
+    /* border: 2px dashed violet; */
+    padding: 8px;
+    /* margin-left: 50px; */
+}
+
+.h-gif {
+    height: auto;
+    width: 90%;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin: 10% auto 0 auto;
 }
