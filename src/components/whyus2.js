@@ -18,8 +18,8 @@ function Feat1p2() {
         <Col lg={true} className='t-head bg-light border'>For Clients
         <Stack gap={1}>
           <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Proof of Quality</div>
-          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Safe and Secure</div>
           <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Take the fastlane to the right talent</div>
+          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Safe and Secure</div>
           <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> 24/7 support</div>
       </Stack>
     </Col>
@@ -34,19 +34,13 @@ function Feat1p2() {
       </Row>
       <br/>
       <Row>
-
-       
         <button  className="seebtn"  onClick={() =>{
           navigate("/seemore");
         }} >
           See More
         </button>
-        {/* <Button variant="outline-secondary" className="seebtn">
-          <Link to ="/seemore">See More</Link>
-        </Button>
-           */}
 
-      </Row>
+      </Row> 
       <br/> <br/>
     </Container>
 

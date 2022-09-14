@@ -16,7 +16,7 @@ function Seemore() {
       </video>
     </div>
     
-    <div className='cont'>
+    {/* <div className='cont'>
     <Container>
     <Row>
         <Col md={12}>
@@ -25,7 +25,7 @@ function Seemore() {
         </Col>
       </Row>
       </Container>
-    </div>
+    </div> */}
     
     </header>
     
