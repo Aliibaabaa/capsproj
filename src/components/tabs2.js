@@ -15,8 +15,7 @@ function JustifiedExample() {
       justify
     >
 
-      <ClientInfo/>
-
+      
       <Tab eventKey="client" title="FOR CLIENTS">
 
         <Clients />
