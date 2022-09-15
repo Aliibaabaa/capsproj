@@ -8,39 +8,14 @@ import {
     BrowserRouter as Router,
     Routes,
     Route,
-    Link
+    Link,
+    useParams, 
+    useNavigate
   } from "react-router-dom";
 
   import {ClientInfo,TalentInfo} from './seemorepages2';
 
   
-function TabsProto() {
-  return (   
-   <Router>
-    <Tabs 
-      defaultActiveKey="profile"
-      id="justify-tab-example"
-      className="mb-3"
-      justify
-        >
-      <Tab eventKey="client" title="Client">
-      <Link to="/"> CLIENTS</Link>
-      </Tab>
-      <Tab eventKey="talent" title="Talent">
-      <Link to="/talent">TALENTS</Link>
-      </Tab>
-      <Routes>
-          <Route exact path="/" element={<Clients />}/>
-            
-          <Route path="/talent" element ={<Talents/>}/>
-           
-        </Routes>
-      
-    </Tabs>
-    </Router>
-  );
-  
-}
 function Clients() {
     return (
       <div>
@@ -57,5 +32,5 @@ function Clients() {
     );
   }
 
-export {TabsProto, 
+export {
     Clients, Talents};
