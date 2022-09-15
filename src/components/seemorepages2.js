@@ -3,11 +3,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Stack from 'react-bootstrap/Stack';
-import wc3 from '../components/images/wcc3.gif';
-import wc4 from '../components/images/wcc4.gif';
-import wc2 from '../components/images/wcc2.gif';
-import wc1 from '../components/images/wc1.gif';
-import wc5 from '../components/images/wcc5.gif';
+import wc3 from '../components/Images/wcc3.gif';
+import wc4 from '../components/Images/wcc4.gif';
+import wc2 from '../components/Images/wcc2.gif';
+import wc1 from '../components/Images/wc1.gif';
+import wc5 from '../components/Images/wcc5.gif';
 
 function ClientInfo() {
   return (
