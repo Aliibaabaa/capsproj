@@ -5,23 +5,42 @@ import Tabs from 'react-bootstrap/Tabs';
 
 import{ 
     Clients, Talents} from './tabs';
-    import {ClientInfo, TalentInfo} from './seemorepages2'
+    // import {ClientInfo, TalentInfo} from './seemorepages2'
 
 function JustifiedExample() {
+  // const DEFAULT_ACTIVE_TAB = "Client";
+  // const {active_tab} = useParams();
+  // const history = useNavigate();
+  
+  // useEffect(() => {
+  //     if(!active_tab){
+  //         history.push(`/${DEFAULT_ACTIVE_TAB}`);
+  //     }
+  // }, []);
+
+  // const toggle = tab => {
+  //    if (active_tab !== tab) {
+  //         history.push(`/${tab}`);
+  //    }
+  // }
+
   return (
     
     <Tabs
-      defaultActiveKey="profile" id="justify-tab-example" className="mb-3"
+      defaultActiveKey="client" id="justify-tab-example" className="mb-3"
       justify
     >
-      <ClientInfo/>
 
+    
       <Tab eventKey="client" title="FOR CLIENTS">
+
         <Clients />
         
        
       </Tab>
+
       <Tab eventKey="talent" title="FOR TALENTS">
+
       <Talents />
       </Tab>
 
