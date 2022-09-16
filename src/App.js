@@ -18,7 +18,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Seemore from "./components/seemorepage";
+import Client from "./components/client";
 import Home from "./components/Home"
 import AboutUs from "./components/about"
 
@@ -67,7 +67,7 @@ function App() {
     
     <Route path="/" element={ <Home/> } />
     <Route path="/aboutus" element={ <AboutUs/> } />
-    <Route path="/seemore" element={ <Seemore/> } />
+    <Route path="/client" element={ <Client/> } />
     
       </Routes>
     </main>

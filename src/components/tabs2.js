@@ -7,7 +7,7 @@ import{
     Clients, Talents} from './tabs';
     // import {ClientInfo, TalentInfo} from './seemorepages2'
 
-function JustifiedExample() {
+function Clientelle() {
   // const DEFAULT_ACTIVE_TAB = "Client";
   // const {active_tab} = useParams();
   // const history = useNavigate();
@@ -55,4 +55,4 @@ function JustifiedExample() {
   );
 }
 
-export default JustifiedExample;
+export default Clientelle;
