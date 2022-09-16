@@ -12,13 +12,12 @@ import CardGrid from './components/cardgrid';
 import TestiMonials from './components/TestiMonials';
 import $ from 'jquery';
 import JustifiedExample from './components/tabs2'; 
-import ResponsiveAutoExample from'./components/seemorepage.js';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
-import Seemore from "./components/seemorepage";
+import Client from "./components/client";
 import Home from "./components/Home";
 import AboutUs from "./components/about";
 import Footer from './components/footer';
@@ -67,7 +66,8 @@ function App() {
     
     <Route path="/" element={ <Home/> } />
     <Route path="/aboutus" element={ <AboutUs/> } />
-    <Route path="/seemore" element={ <Seemore/> } />
+    <Route path="/client" element={ <Client/> } />
+    <Route path="/talent" element={ <Talent/> } />
     
       </Routes>
     </main>

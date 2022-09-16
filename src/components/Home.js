@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
-import Navbarr from './navbar';
+// import Navbarr from './navbar';
 import Feat1 from './whyus'
 import Feat1p2 from './whyus2'
 import Feat2 from './howitworks'
@@ -11,8 +11,8 @@ import CardGrid from './cardgrid';
 // import BasicExample from  './components/cardsu';
 import TestiMonials from './TestiMonials';
 import $ from 'jquery';
-import JustifiedExample from './tabs2'; 
-import ResponsiveAutoExample from'./seemorepage.js';
+// import JustifiedExample from './tabs2'; 
+// import ResponsiveAutoExample from'./seemorepage.js';
 // import {
 //   BrowserRouter as Router,
 //   Routes,
