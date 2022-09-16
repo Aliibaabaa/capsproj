@@ -2,17 +2,17 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Navbarr from './components/navbar';
-import Feat1 from './components/whyus'
-import Feat1p2 from './components/whyus2'
-import Feat2 from './components/howitworks'
-import Feat2p2 from './components/howitworks2'
-import HeroSection from './components/hero';
-import CardGrid from './components/cardgrid';
-// import BasicExample from  './components/cardsu';
-import TestiMonials from './components/TestiMonials';
+// import Feat1 from './components/whyus'
+// import Feat1p2 from './components/whyus2'
+// import Feat2 from './components/howitworks'
+// import Feat2p2 from './components/howitworks2'
+// import HeroSection from './components/hero';
+// import CardGrid from './components/cardgrid';
+ // import BasicExample from  './components/cardsu';
+// import TestiMonials from './components/TestiMonials';
 import $ from 'jquery';
-import JustifiedExample from './components/tabs2'; 
-import ResponsiveAutoExample from'./components/seemorepage.js';
+// import JustifiedExample from './components/tabs2'; 
+// import ResponsiveAutoExample from'./components/seemorepage.js';
 import {
   BrowserRouter as Router,
   Routes,
@@ -72,7 +72,7 @@ function App() {
     
     
       </Routes>
-  
+    </main>
 
     {/* <Routes>
     <main>
@@ -108,11 +108,8 @@ function App() {
       
     </main>
     </Routes> */}
-<br/>
-    <div className="tag">
-      <Affiliation/>
-      </div>
-  </main>
+
+
     <footer>
       <div className="tag">
           <Footer />

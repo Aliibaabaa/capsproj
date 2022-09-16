@@ -13,6 +13,8 @@ import TestiMonials from './TestiMonials';
 import $ from 'jquery';
 import JustifiedExample from './tabs2'; 
 import ResponsiveAutoExample from'./seemorepage.js';
+import Affiliation from "./affiliation";
+
 // import {
 //   BrowserRouter as Router,
 //   Routes,
@@ -77,7 +79,7 @@ function Home() {
       </div>
 
       <div className="tag">
-      <TestiMonials></TestiMonials>
+      <Affiliation/>
       </div>
     </main>
     
