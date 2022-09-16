@@ -9,6 +9,7 @@ import wc2 from '../components/Images/wcc2.gif';
 import wc1 from '../components/Images/wc1.gif';
 import wc5 from '../components/Images/wcc5.gif';
 import TestiMonials from './TestiMonials';
+import Button from 'react-bootstrap/Button';
 
 function ClientInfo() {
   return (
@@ -51,7 +52,13 @@ function ClientInfo() {
           </Stack>
         </Col>
       </Row>
-
+      <Row>
+        <Col lg={12}>
+         <Button  variant="light" className='tabbtn' id='tabbtn'>
+             HIRE A TALENT NOW! <i class="fa fa-handshake-o" > </i>
+          </Button>
+        </Col>
+      </Row>
           <Row>
             <Col lg={true}>
               <img src={wc2} className="w-gif" responsive />
@@ -148,7 +155,13 @@ function TalentInfo() {
             </Stack>
           </Col>
         </Row>
-
+        <Row>
+        <Col lg={12}>
+         <Button  variant="light" className='tabbtn' id='tabbtn'>
+             JOIN THE TEAM NOW!  <i class=" fa fa-users"> </i>
+          </Button>
+        </Col>
+      </Row>
             <Row>
               <Col lg={true}>
                 <img src={wc2} className="w-gif" responsive />
