@@ -21,6 +21,7 @@ import {
 import Seemore from "./components/seemorepage";
 import Home from "./components/Home";
 import AboutUs from "./components/about";
+import Affiliation from "./components/affiliation";
 import Footer from './components/footer';
 
 
@@ -69,8 +70,9 @@ function App() {
     <Route path="/aboutus" element={ <AboutUs/> } />
     <Route path="/seemore" element={ <Seemore/> } />
     
+    
       </Routes>
-    </main>
+  
 
     {/* <Routes>
     <main>
@@ -106,6 +108,11 @@ function App() {
       
     </main>
     </Routes> */}
+<br/>
+    <div className="tag">
+      <Affiliation/>
+      </div>
+  </main>
     <footer>
       <div className="tag">
           <Footer />
