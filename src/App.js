@@ -18,6 +18,7 @@ import {
   Route,
 } from "react-router-dom";
 import Client from "./components/client";
+import Talent from "./components/Talent";
 import Home from "./components/Home";
 import AboutUs from "./components/about";
 import Footer from './components/footer';
