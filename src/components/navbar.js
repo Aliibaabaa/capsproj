@@ -94,7 +94,7 @@ function Navbarr() {
       {/* <Button variant="light" className='joinBtn'>Join</Button> */}
 
     <>
-      <Button variant="light" className='signInBtn' onClick={() => setModalShow(true)}>
+      <Button  variant="light" className='signInBtn' id='signinbtn' onClick={() => setModalShow(true)}>
           <i class="fa fa-user"></i> Log in
       </Button>
 

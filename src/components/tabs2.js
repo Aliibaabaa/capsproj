@@ -27,19 +27,19 @@ function JustifiedExample() {
   return (
     
     <Tabs
-      defaultActiveKey="client" id="justify-tab-example" className="mb-3"
+      defaultActiveKey="client" id="btn1" className="btn1" 
       justify
     >
 
     
-      <Tab eventKey="client" title="FOR CLIENTS">
+      <Tab eventKey="client" title="CLIENTS" className="slide">
 
         <Clients />
         
        
       </Tab>
 
-      <Tab eventKey="talent" title="FOR TALENTS">
+      <Tab eventKey="talent" title="TALENTS">
 
       <Talents />
       </Tab>

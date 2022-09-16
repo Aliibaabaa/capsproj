@@ -19,9 +19,9 @@ import {
   Route,
 } from "react-router-dom";
 import Seemore from "./components/seemorepage";
-import Home from "./components/Home"
-import AboutUs from "./components/about"
-
+import Home from "./components/Home";
+import AboutUs from "./components/about";
+import Footer from './components/footer';
 
 
 
@@ -107,7 +107,9 @@ function App() {
     </main>
     </Routes> */}
     <footer>
-
+      <div className="tag">
+          <Footer />
+      </div>
     </footer>
     </>
     
