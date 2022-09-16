@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Clientelle from './tabs2'; 
 import React from 'react'
-import bv from '../components/images/bv2.mp4'
+import bv from '../components/Images/bv2.mp4'
 
 function Client() {
   return (
