@@ -8,7 +8,7 @@ import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 import React from 'react';
 //import InputGroup from 'react-bootstrap/InputGroup';
-import logoo1 from '../components/images/logoo2.png'
+import logoo1 from '../components/Images/logoo2.png'
 import Image from 'react-bootstrap/Image'
 import { Link } from "react-router-dom";
 function MyVerticallyCenteredModal(props) {
@@ -46,7 +46,7 @@ function Navbarr() {
   return (
     <Navbar collapseOnSelect expand="lg"  variant="dark" id="nav-cont" className='h-navbar'>
       <Container>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/">
             <Image className="logo" src={logoo1} responsive/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -94,7 +94,7 @@ function Navbarr() {
       {/* <Button variant="light" className='joinBtn'>Join</Button> */}
 
     <>
-      <Button variant="light" className='signInBtn' onClick={() => setModalShow(true)}>
+      <Button  variant="light" className='signInBtn' id='signinbtn' onClick={() => setModalShow(true)}>
           <i class="fa fa-user"></i> Log in
       </Button>
 

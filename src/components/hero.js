@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Himage from "./images/cpic1.jpg";
-import Himage2 from "./images/cpic2.jpg";
-import Himage3 from "./images/cpic3.jpg";
+import Himage from "./Images/cpic1.jpg";
+import Himage2 from "./Images/cpic2.jpg";
+import Himage3 from "./Images/cpic3.jpg";
 import Form from 'react-bootstrap/Form';
 import "./css/carousel.css";
 import Button from 'react-bootstrap/Button';
@@ -24,7 +24,7 @@ function HeroSection() {
               className="me-2"
               aria-label="Search"
             />
-            <Button className="car-searchbtn" variant="outline">Search</Button>
+            <Button className="car-searchbtn" variant="outline" id='car-searchbtn'>Search</Button>
           </Form>
         </Carousel.Caption>
       </Carousel.Item>
@@ -47,7 +47,7 @@ function HeroSection() {
               className="me-2"
               aria-label="Search"
             />
-            <Button className="car-searchbtn" variant="outline"> Search</Button>
+            <Button className="car-searchbtn" variant="outline" id='car-searchbtn'> Search</Button>
           </Form>
         </Carousel.Caption>
       </Carousel.Item>
@@ -72,7 +72,7 @@ function HeroSection() {
               className="me-2"
               aria-label="Search"
             />
-            <Button className="car-searchbtn" variant="outline">Search</Button>
+            <Button className="car-searchbtn" variant="outline" id='car-searchbtn'>Search</Button>
           </Form>
         </Carousel.Caption>
       </Carousel.Item>

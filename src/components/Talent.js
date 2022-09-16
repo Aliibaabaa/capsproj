@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Talented from './tabs3'; 
 import React from 'react'
-import bv from '../components/images/bv2.mp4'
+import bv from '../components/Images/bv2.mp4'
 
 function Talent() {
   return (

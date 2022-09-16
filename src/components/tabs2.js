@@ -27,19 +27,19 @@ function Clientelle() {
   return (
     
     <Tabs
-      defaultActiveKey="client" id="justify-tab-example" className="mb-3"
-      justify
-    >
+      defaultActiveKey="client" id="btn1" className="btn1" 
+      justify >
+   
 
     
-      <Tab eventKey="client" title="FOR CLIENTS">
+      <Tab eventKey="client" title="CLIENTS" className="slide">
 
         <Clients />
         
        
       </Tab>
 
-      <Tab eventKey="talent" title="FOR TALENTS">
+      <Tab eventKey="talent" title="TALENTS" className="slide">
 
       <Talents />
       </Tab>
