@@ -17,18 +17,10 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-<<<<<<< HEAD
 import Client from "./components/client";
-import Home from "./components/Home"
-import AboutUs from "./components/about"
-import Talent from "./components/Talent"
-
-=======
-import Seemore from "./components/seemorepage";
 import Home from "./components/Home";
 import AboutUs from "./components/about";
 import Footer from './components/footer';
->>>>>>> baa6ce98e100177df97441a271983744ac98f4fa
 
 
 
