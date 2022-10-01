@@ -26,32 +26,14 @@ function Talented() {
 
   return (
     
-    <Tabs
-    defaultActiveKey="talent" id="btn1" className="btn1" 
-    justify >
- 
-
   
-    <Tab eventKey="client" title="CLIENTS" className="slide">
-
-      <Clients />
-      
+    <>
+    
+     <Talents />
      
-    </Tab>
-
-    <Tab eventKey="talent" title="TALENTS" className="slide">
-
-    <Talents />
-    </Tab>
-
-
-      {/* <Tab eventKey="longer-tab" title="Loooonger Tab">
-        <Feat2 />
-      </Tab>
-      <Tab eventKey="contact" title="Contact" disabled>
-        <Feat2 />
-      </Tab> */}
-    </Tabs>
+     </>
+   
+  
   );
 }
 
