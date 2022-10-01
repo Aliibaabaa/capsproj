@@ -24,6 +24,7 @@
     transform-style: preserve-3d;
     margin: 0 auto 17px;
     aspect-ratio: 1;
+    background-position:top;
   }
  
   #customer-testimonoals {
@@ -49,6 +50,7 @@
     opacity: 0.2;
     transform: scale3d(0.8, 0.8, 1);
     transition: all 0.3s ease-in-out;
+    background:#ECECEC;
   }
   #customer-testimonoals .owl-item.active.center .item {
     opacity: 1;

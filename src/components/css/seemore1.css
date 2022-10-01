@@ -13,7 +13,7 @@
     justify-content: center; */
     z-index: -2;
     background-color:#030332;
-    /* background:url('/Images/qq.jpg'); */
+    background-image: url("../Images/qq.jpg");
      background-size: cover; 
      background-repeat: no-repeat;
 }  
