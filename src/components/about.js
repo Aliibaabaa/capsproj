@@ -6,10 +6,23 @@ import '../components/css/seemore1.css';
 
 function AboutUs() {
   return (
+<>
+    <header>
+    <div className="hero">
+    <div class="wrap-hero">
+      <Row>
+        <Col lg={true} className="headd"><h1>ABOUT US</h1></Col>
+        
+      </Row>
+      </div>
+    </div>
+    
+    </header>
+
     <main>
         <AboutUsContent/>
    </main>
-
+</>
   );
 }
 

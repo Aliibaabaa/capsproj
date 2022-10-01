@@ -195,12 +195,12 @@ export default function footer() {
               <ul className='list-unstyled mb-0'>
                 <li>
                   <a href='#!' className='text-white'>
-                   Privacy Policy
+                   Careers
                   </a>
                 </li>
                 <li>
                   <a href='#!' className='text-white'>
-                  Fees and Charges
+                  Privacy Policy
                   </a>
                 </li>
                 <li>
@@ -226,7 +226,7 @@ export default function footer() {
         <a className='text-white' href='index.html'>
         <span> QuantaCell.com by</span>
         </a>
-        <span> Audax, Ebenezer, Mark Nixon, and Princess</span>
+        <span> AENP Co.</span>
       </div>
     </MDBFooter>
   );

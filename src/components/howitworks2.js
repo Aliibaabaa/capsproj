@@ -61,7 +61,8 @@ function Feat2p2() {
       <br/>  
 
       <Row xs={1} md={2}>
-        <Col lg={4} className='hw-head'>  <div className='hwC-cont'> 
+        <Col lg={4} className='hw-head'>  
+        <div className='hwC-cont'> 
                  <Image className='hwC-img' src={hwT} responsive />
                     <div className='hwC-ol'> 
                     <Table striped  className='hwC-ol'>
@@ -90,11 +91,13 @@ function Feat2p2() {
            </div>
     </Col>
 
-        <Col lg={8} className='hw-head'><br/>For Talents
+        <Col lg={8} className='hw-head'>For Talents
         <Stack gap={2}>
-          <div className="satck bg-light border">First item</div>
-          <div className="satck bg-light border">Second item</div>
-          <div className="satck bg-light border">Third item</div>
+          <div className="satck bg-light border">1. Complete your Profile </div>
+          <div className="satck bg-light border">2. Application is Reviewed </div>
+          <div className="satck bg-light border">3.  Complete Assessments</div>
+          <div className="satck bg-light border">4.  Client Matching</div>
+          <div className="satck bg-light border">5. Connect with Client</div>
       </Stack>
         </Col>
       </Row>
