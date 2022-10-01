@@ -1,8 +1,9 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Himage2 from "./Images/cpic2.jpg";
-import './css/cardsu.css'
+import './css/cardsu.css';
 import React from 'react';
+import Rowan from "./Images/rowanA.jpg";
 
 
 var sectionStyle = {
@@ -10,6 +11,14 @@ var sectionStyle = {
     width: '18rem',
     backgroundSize: 'cover',
     backgroundPosition:'center',
+  }
+
+  var sectionStyle2 = {
+    backgroundImage: `url(${Rowan})`,
+    width: '18rem',
+    backgroundSize: 'cover',
+    backgroundPosition:'center',
+     borderRadius:'100%',
   }
 
 function Card6() {
@@ -28,4 +37,19 @@ function Card6() {
   );
 }
 
-export default Card6;
+function TCard6() {
+  return (
+    <Card className = "card2" style={sectionStyle2}>
+    
+      <Card.Body className = "card-content2">
+        <Card.Title className = "card-title2">Rowan Atkinson</Card.Title>
+        <Card.Text className = "card-body2">
+         Jolly good show
+        </Card.Text>
+        {/* <Button variant="primary">Go somewhere</Button> */}
+      </Card.Body>
+    </Card>
+  );
+}
+
+export {Card6, TCard6};

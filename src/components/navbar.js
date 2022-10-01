@@ -1,4 +1,4 @@
-import '../components/css/navbar.css';
+import './css/navbar.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -8,7 +8,7 @@ import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 import React from 'react';
 //import InputGroup from 'react-bootstrap/InputGroup';
-import logoo1 from '../components/Images/logoo2.png'
+import logoo1 from './Images/logoo2.png'
 import Image from 'react-bootstrap/Image'
 import { Link } from "react-router-dom";
 function MyVerticallyCenteredModal(props) {
