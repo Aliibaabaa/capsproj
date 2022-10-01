@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Special+Elite&display=swap');
 
 .hero {
     width: 100%;
@@ -12,7 +13,7 @@
     justify-content: center; */
     z-index: -2;
     background-color:#030332;
-    background:url(../Images/qq.jpg);
+    background-image: url("../Images/qq.jpg");
      background-size: cover; 
      background-repeat: no-repeat;
 }  
@@ -33,7 +34,6 @@
     position: relative;
   }
 
-
 .headd h1::before {
     content: '';
     width: 8px;
@@ -50,15 +50,16 @@
 
 .hero2 .wrap-hero {
     margin-left: -2%;
-    
+}
+
+.hero2 {
+    padding-top: 5rem;
 }
 
 .wrapper {
     margin-top: -100px;
     width: 100%;
     height:auto;
-    /* background:url(../Images/qq.jpg);*/
-     /* margin-bottom: -60px;  */
 }
 
 #wrap-cont {
@@ -182,7 +183,7 @@
     z-index: -2;
     justify-content: center;
     align-items: center;
-   margin-top: -100px;
+    margin-top: -150px !important;
 
 }
 
@@ -194,10 +195,12 @@
 .contt {
     border: 7px double rgb(230, 227, 227);
     margin-top: -50px;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 15px;
     border-radius: 50px;
     z-index: -99;
+    margin-top: -250px !important;
+    background-color: white;
 }
 
 .cont h1 , .contt h1  {
@@ -364,13 +367,13 @@
         font-size: 14px;
     }
     .bv {
-        margin-top: -10px;
+        margin-top: -10px ;
     }
-    .tabs {
-        margin-top: -150px;
+    .contt {
+        margin-top: -220px ;
     }
     #tabbtn {
-        margin-left: 20% ;
+        margin-left: 30% ;
      }
   }
   
@@ -379,30 +382,31 @@
         font-size: 14px;
     }
     .bv {
-        margin-top: -100px;
+        margin-top: 0px ;
     }
-    .tabs {
+    .contt {
         margin-top: -200px;
     }
   }
   
 
-  @media (max-width: 720px) { 
-    * , .stackk, .satckk , #tabbtn , .stack-p , .t-num  {
-        font-size: 14px;
+  @media  (max-width: 720px) { 
+    * , .stackk, .satckk , #tabbtn , .stack-p , .t-num , .abt1-h h2 , 
+    .abtp {
+        font-size: 14px !important;
     }
     .cont h2, .contt h2 , .cont2 h2 , .s-head  , 
-    .tabs .btn1 .nav-link , .sectionTitle , #tabbtn {
+    .tabs .btn1 .nav-link , .sectionTitle , #tabbtn , .abth {
         font-size: 15px !important;
     }
-    .cont h1, .contt h1 , .cont2 h1 , .num , .miniTitle {
+    .cont h1, .contt h1 , .cont2 h1 , .num , .miniTitle  , .abt1-h h1, .abt2-h {
         font-size: 20px !important;
     }
     .bv {
-        margin-top: -10px;
+        margin-top: -60px !important ;
     }
-    .tabs {
-        margin-top: -100px;
+    .contt { 
+        margin-top: -150px !important;
     }
     #tabbtn {
        margin-left: 50px !important;
@@ -411,21 +415,22 @@
   
 
   @media (max-width: 425px) { 
-    * , .stackk, .satckk , #tabbtn , .stack-p , .t-num  {
-        font-size: 13px;
+    * , .stackk, .satckk , #tabbtn , .stack-p , .t-num  , .abt1-h h2 , 
+    .abtp {
+        font-size: 13px !important;
     }
     .cont h2, .contt h2 , .cont2 h2 , .s-head  , 
-    .tabs .btn1 .nav-link , .sectionTitle , #tabbtn {
+    .tabs .btn1 .nav-link , .sectionTitle , #tabbtn , .abth {
         font-size: 15px !important;
     }
-    .cont h1, .contt h1 , .cont2 h1 , .num , .miniTitle {
+    .cont h1, .contt h1 , .cont2 h1 , .num , .miniTitle , .abt1-h h1, .abt2-h  {
         font-size: 20px !important;
     }
     .bv {
-        margin-top: 40px;
+        margin-top: -20px !important;
     }
-    .tabs {
-        margin-top: -60px;
+    .contt {
+        margin-top: -120px !important;
     }
     #tabbtn {
        margin-left: 10px !important;
@@ -437,28 +442,28 @@
         padding: 10px
     }
     .contt , .cont2, .cont3 {
-        width:80vw;
-        margin-left: -50px;
+        width:100vw;
       }
   
   }
  
   @media (max-width: 320px) { 
-    * , .stackk, .satckk , #tabbtn , .stack-p , .t-num  {
+    * , .stackk, .satckk , #tabbtn , .stack-p , .t-num  , .abt1-h h2 , 
+    .abtp {
         font-size: 13px;
     }
     .cont h2, .contt h2 , .cont2 h2 , .s-head  , 
-    .tabs .btn1 .nav-link , .sectionTitle , #tabbtn {
+    .tabs .btn1 .nav-link , .sectionTitle , #tabbtn , .abth {
         font-size: 15px !important;
     }
-    .cont h1, .contt h1 , .cont2 h1 , .num , .miniTitle {
-        font-size: 20px !important;
+    .cont h1, .contt h1 , .cont2 h1 , .num , .miniTitle , .abt1-h h1, .abt2-h {
+        font-size: 18px !important;
     }
     .bv {
-        margin-top: 40px;
+        margin-top: 0px;
     }
-    .tabs {
-        margin-top: -40px;
+    .contt {
+        margin-top: -30px;
     }
     #tabbtn {
        margin-left: 0px !important;
@@ -473,8 +478,7 @@
         padding: 7px
     }
   .contt , .cont2, .cont3 {
-    width:80vw;
-    margin-left: -50px;
+    width:100vw;
   }
   }
   
@@ -496,6 +500,7 @@ width: 100%;
     padding-bottom: 15px;
     border-radius: 50px;
     z-index: -99;
+    
 }
 .abt , .abtt {
     background-color: #030332;
@@ -508,7 +513,8 @@ width: 100%;
 
 .abtt {
     background-color: #0303320f;
-    border: 7px double #32031daa
+    border: 7px double #32031daa;
+    background-image: linear-gradient(#95b9f4c9,#022a6b);
 }
 
 .chead {
@@ -578,6 +584,7 @@ width: 100%;
 #tabbtn:hover , #btn2:hover {
     text-transform: uppercase;
     background-color: #285977ce;
+    border-color: #285977ce ;
     border-radius: 5px;
     /* padding: 5px; */
     font-weight: 500;

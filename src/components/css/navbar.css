@@ -42,13 +42,24 @@
 #nav-list a:hover {
     text-transform: uppercase;
     /* background-color: #16415bce; */
-    background-color: #008b8b7e;
+    /* background-color: #008b8b7e; */
+    color: rgba(5, 223, 223, 0.823);
     border-radius: 3px;
     padding: 10px;
     font-weight: 500;
+    border-bottom: 4px solid #5997bd ;
 }
 
 #nav-list a:active {
+    text-transform: uppercase;
+    background-color: #16415bce;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: 500;
+    border-bottom: 5px solid #5997bd;
+}
+
+#nav-list .active a {
     text-transform: uppercase;
     background-color: #16415bce;
     border-radius: 3px;
@@ -75,8 +86,17 @@
     margin-left: 15px;
     font-size: 15px;
     letter-spacing: .3px;
+    text-decoration: none;
     /* color:#030332;
     background-color: antiquewhite; */
+}
+#signinbtn  a {
+    text-decoration: none;
+    color: #4f4f4f;
+    font-weight: 500;
+}
+#signinbtn  a:hover {
+    color: white !important;
 }
 
 #signinbtn:hover {
@@ -85,7 +105,8 @@
     border-radius: 5px;
     /* padding: 5px; */
     font-weight: 500;
-    color: white
+    color: white !important;
+    border-color: #285977ce;
 }
 
 .joinBtn {

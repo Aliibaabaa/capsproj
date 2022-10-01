@@ -15,8 +15,8 @@ function HeroSection() {
       <img className="d-block w-100" style={{height:'100vh',width:'100%',aspectRatio:'1/1'}} src={Himage }  alt="First slide"/>
 
         <Carousel.Caption style={{bottom:'10rem',textShadow: '2px 2px black'}}>
-          <h1>First slide label</h1>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h1 className="carh1">We find your dreams</h1>
+          <p className="carp">Our mission is to create economic opportunities so people have better lives.</p>
           <Form className="d-flex">
             <Form.Control
               type="search"
@@ -38,8 +38,8 @@ function HeroSection() {
         />
 
         <Carousel.Caption style={{bottom:'10rem',textShadow: '2px 2px black'}}>
-          <h1>Second slide label</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h1 className="carh1">Satisfaction Guarantee</h1>
+          <p className="carp">We assure you to provide the excellent and quality services with our dedicated talents.</p>
           <Form className="d-flex">
             <Form.Control
               type="search"
@@ -61,9 +61,9 @@ function HeroSection() {
         />
 
         <Carousel.Caption style={{bottom:'10rem',textShadow: '2px 2px black'}}>
-          <h1>Third slide label</h1>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          <h1 className="carh1">Join our Team</h1>
+          <p className="carp">
+            What are you waiting for? Be a part of our growing team here in QuantaCell.
           </p>
           <Form className="d-flex">
             <Form.Control

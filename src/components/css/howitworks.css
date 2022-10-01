@@ -10,6 +10,7 @@
 }
 
 .h-title  h3 {
+    text-shadow: 3px 3px 3px #0a0a0a54;
     font-size: 30px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
@@ -52,6 +53,8 @@
     /* border: 2px dashed violet; */
     font-family: 'Architects Daughter', cursive;
     z-index: 4;
+    color: #455574;
+    text-shadow: 2px 2px 3px #0a0a0a28
 }
 
 .satck {

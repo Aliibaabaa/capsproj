@@ -1,3 +1,4 @@
+import './css/footer.css'
 import React from 'react';
 import {
   MDBFooter,
@@ -9,8 +10,6 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 
-//style
-import './css/footer.css'
 import Container from 'react-bootstrap/esm/Container';
 // import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -73,9 +72,7 @@ export default function footer() {
 
         <section className='mb-4'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat
-            voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam
-            sequi voluptate quas.
+            By clicking the button above, you agree to our Terms of Service and Privacy Policy of our website.
           </p>
         </section>
 <hr/>
@@ -98,7 +95,7 @@ export default function footer() {
               </Col>
               <Col lg='4' md='5' className='mb-4 mb-md-0' id='col2'>
               <a href='#!' className='text-white'>
-                  <i class="fa fa-map-marker"></i>  8th Avenue cor. 35th Street, North Bonifacio Triangle,  Bonifacio Global City, Taguig City 1635
+                  <i class="fa fa-map-marker"></i>  8th Avenue cor., 35th Street, North Bonifacio Triangle,  Bonifacio Global City, Taguig City 1635
                   </a>
               </Col>
             </Row>
@@ -111,7 +108,7 @@ export default function footer() {
             <MDBCol lg='3' md='5' className='mb-4 mb-md-0'>
               <h5 className='text-uppercase'>Quantacell</h5>
             <p className='ul-p'> 
-              <ul className='list-unstyled mb-0'>
+              <ul className='list-unstyled mb-0' id='col2'>
                 <li>
                   <a href='#!' className='text-white'>
                     Home
@@ -136,9 +133,9 @@ export default function footer() {
             </MDBCol>
 
             <MDBCol lg='3' md='5' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>For the Clients</h5>
+              <h5 className='text-uppercase' >For the Clients</h5>
               <p className='ul-p'> 
-              <ul className='list-unstyled mb-0'>
+              <ul className='list-unstyled mb-0' id='col2'>
                 <li>
                   <a href='#!' className='text-white'>
                     Why Work with Us
@@ -165,7 +162,7 @@ export default function footer() {
             <MDBCol lg='3' md='5' className='mb-4 mb-md-0'>
               <h5 className='text-uppercase'>For the Talents</h5>
               <p className='ul-p'> 
-              <ul className='list-unstyled mb-0'>
+              <ul className='list-unstyled mb-0' id='col2'>
                 <li>
                   <a href='#!' className='text-white'>
                     Why Join Our Team
@@ -192,7 +189,7 @@ export default function footer() {
             <MDBCol lg='3' md='5' className='mb-4 mb-md-0'>
               <h5 className='text-uppercase'>RESOURCES</h5>
               <p className='ul-p'> 
-              <ul className='list-unstyled mb-0'>
+              <ul className='list-unstyled mb-0' id='col2'>
                 <li>
                   <a href='#!' className='text-white'>
                    Careers

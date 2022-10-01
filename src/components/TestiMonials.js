@@ -9,6 +9,11 @@ import Emilia from './Images/emilia.jpg';
 import Elon from './Images/elon.jpg';
 import Bill from './Images/bill.jpg';
 import KimK from './Images/kimk.webp';
+import KimJ from './Images/kimj.jpg';
+import Rowan from "./Images/rowanA.jpg";
+import Aladeen from "./Images/Aladeen.jpg";
+import TomS from "./Images/Tom.webp";
+
 
 
 const TestiMonials = () => {
@@ -16,19 +21,19 @@ const TestiMonials = () => {
     const testiMonials = [
         {
             name: 'Elon Musk',
-            description: '"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s."',
+            description: '"Revolutionary Stuff!"',
             address: 'CEO - Tesla',
             img: Elon
         },
         {
             name: 'Bill Gates',
-            description: '"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s."',
+            description: '"Lorem Ipsum"',
             address: 'CEO - Microsoft',
             img: Bill
         },
         {
             name: 'Emilia Clarke',
-            description: '"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s."',
+            description: '" Amazing!"',
             address: 'British Actress',
             img: Emilia
         },
@@ -38,6 +43,30 @@ const TestiMonials = () => {
             address: 'Famous Person',
             img: KimK
         },
+        {
+            name: 'Kim Jong Un',
+            description: '"그들은 좋다."',
+            address: 'Supreme Leader',
+            img: KimJ
+        },
+        {
+            name: 'Rowan Atkinson',
+            description: '"Jolly good show"',
+            address: 'Comedian/Actor',
+            img: Rowan
+        },
+        {
+            name: 'Aladeen Efawadh',
+            description: '"They have made an Aladeen impact on society."',
+            address: 'Dictator',
+            img: Aladeen
+        },
+        {
+            name: 'Thomas Michael Shelby',
+            description: '"They are fooking great"',
+            address: 'British Parliament Member',
+            img: TomS
+        }
     ]
     //Owl Carousel Settings
     const options = {

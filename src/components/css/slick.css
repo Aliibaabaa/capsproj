@@ -19,6 +19,7 @@
     font-size: 30px;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 3px 3px 3px #0a0a0a85;
 }
   /* the slides */
   /* .slick-slide {
@@ -47,3 +48,22 @@
     right: 3% !important;
     z-index: 1;
   }
+
+  @media  (max-width: 720px)  {
+    .Services h2{
+        font-size: 20px !important;
+    }
+  }
+
+  @media (max-width: 425px) { 
+    .Services h2{
+        font-size: 20px !important;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .Services h2{
+        font-size: 18px !important;
+    }
+  }
+

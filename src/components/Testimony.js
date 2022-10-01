@@ -1,22 +1,21 @@
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import {Card1} from './cardsu';
-import {Card2} from './cardsu2';
-import {Card3} from './cardsu3';
-import {Card4} from './cardsu4';
-import {Card5} from './cardsu5';
-import {Card6} from './cardsu6';
-import {Card7} from './cardsu7';
-import Card8 from './cardsu8';
-import {Card9} from './cardsu9';
-import Card10 from './cardsu10';
+// import Container from 'react-bootstrap/Container';
+// import Col from 'react-bootstrap/Col';
+// import Row from 'react-bootstrap/Row';
+import {TCard1} from './cardsu';
+import {TCard2} from './cardsu2';
+import {TCard3} from './cardsu3';
+import {TCard4 }from './cardsu4';
+import {TCard5} from './cardsu5';
+import {TCard6} from './cardsu6';
+import {TCard7} from './cardsu7';
+// import Card8 from './cardsu8';
+import {TCard9} from './cardsu9';
 import React, { Component } from "react";
-import Carousel from 'react-bootstrap/Carousel';
+// import Carousel from 'react-bootstrap/Carousel';
 import "./css/carousel.css";
-import Stack from 'react-bootstrap/Stack';
+// import Stack from 'react-bootstrap/Stack';
 import Slider from "react-slick";
-import "./css/slick.css"
+import "./css/slick.css";
 
 // import OwlCarousel from 'react-owl-carousel';
 // import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -46,7 +45,7 @@ function SamplePrevArrow(props) {
   );
 }
 
-export default class Responsive extends Component {
+export default class TestResponsive extends Component {
 render() {
 
       var settings = {
@@ -93,17 +92,17 @@ render() {
       return (
         <div className="Div" style ={{ margin:'1rem auto 0'}}>
           <div className="Services">
-          <h2> SERVICES OFFERED </h2>
+          <h2> TESTIMONIALS</h2>
           </div>
           <Slider className="SSlider" {...settings} style ={{ display: 'flex',justifyContent: 'center'}}>
-          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card1 /></div>
-          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card2 /></div>
-          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card3 /></div>
-          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card4 /></div>
-          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card5 /></div>
-          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card6 /></div>
-          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card7 /></div>
-          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><Card9 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard1 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard2 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard3 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard4 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard5 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard6 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard7 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard9 /></div>
           </Slider>
           </div>
       );
@@ -167,4 +166,4 @@ render() {
 //   );
 // }
 
-// export default CardGrid;
+//  export default CardGrid;

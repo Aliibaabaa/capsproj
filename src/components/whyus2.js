@@ -15,12 +15,12 @@ function Feat1p2() {
     <Container>
     
       <Row>
-        <Col lg={true} className='t-head bg-light border'>For Clients
+        <Col lg={true} className='t-head '>For Clients
         <Stack gap={1}>
-          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Proof of Quality</div>
-          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Fastlane to the Right Talent</div>
-          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Safe and Secure</div>
-          <div className="satck bg-light border"> <i class="fa fa-check-square-o" aria-hidden="true"></i> 24/7 support</div>
+          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> Proof of Quality</div>
+          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> Fastlane to the Right Talent</div>
+          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> Safe and Secure</div>
+          <div className="satck "> <i class="fa fa-check-square-o" aria-hidden="true"></i> 24/7 support</div>
       </Stack>
     </Col>
         <Col lg={true} className='t-head '>For Talents
