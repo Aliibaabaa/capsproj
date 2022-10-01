@@ -11,6 +11,8 @@ import React from 'react';
 import logoo1 from './Images/logoo2.png'
 import Image from 'react-bootstrap/Image'
 import { Link } from "react-router-dom";
+import login from '../components/login.js';
+
 function MyVerticallyCenteredModal(props) {
   return (
     <Modal
@@ -32,6 +34,7 @@ function MyVerticallyCenteredModal(props) {
           consectetur ac, vestibulum at eros.
         </p> */}
         <login />
+       
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
