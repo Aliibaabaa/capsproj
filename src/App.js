@@ -23,8 +23,9 @@ import Home from "./components/Home";
 import AboutUs from "./components/about";
 import Affiliation from "./components/affiliation";
 import Footer from './components/footer';
-
-
+import Logins from './components/Logins';
+import Signups from './components/Signups';
+import Tabsu from './components/LoginTabs';
 
 
 
@@ -70,6 +71,10 @@ function App() {
     <Route path="/aboutus" element={ <AboutUs/> } />
     <Route path="/client" element={ <Client/> } />
     <Route path="/talent" element={ <Talent/> } />
+    <Route path="/logtab" element={ <Tabsu/> } />
+    <></>
+    <Route path="/login" element={ <Logins/> } />
+    <Route path="/signup" element = {<Signups/>}/>
     
     
       </Routes>

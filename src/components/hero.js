@@ -63,7 +63,7 @@ function HeroSection() {
         <Carousel.Caption style={{bottom:'10rem',textShadow: '2px 2px black'}}>
           <h1 className="carh1">Join our Team</h1>
           <p className="carp">
-            What are you waiting for? Be a part of our growing team here in QuantaCell.
+            What are you waiting for? Be a part of our growing team here in Strategic Jobseek.
           </p>
           <Form className="d-flex">
             <Form.Control
