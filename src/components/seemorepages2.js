@@ -31,7 +31,7 @@ function ClientInfo() {
           <Col lg={true}>
             <Stack gap={1}>
               <div className="stackk "> <i class="fa fa-check-square-o" aria-hidden="true"></i> PROOF OF QUALITY
-                <p className="stack-p"> Quantacell has by far the largest pool of quality freelancers globally- over 50 million to choose from. Connect to freelancers with proven business experience, work with in-demand global talent who are at the top of their field! </p>
+                <p className="stack-p"> Strategic Jobseek has by far the largest pool of quality freelancers globally- over 50 million to choose from. Connect to freelancers with proven business experience, work with in-demand global talent who are at the top of their field! </p>
               </div>
               
               <div className="stackk "> <i class="fa fa-check-square-o" aria-hidden="true"></i> SAFE AND SECURE
@@ -47,7 +47,7 @@ function ClientInfo() {
               </div>
               
               <div className="stackk "> <i class="fa fa-check-square-o" aria-hidden="true"></i> 24/7 SUPPORT
-              <p className="stack-p"> Quantacell is a community that values your trust and safety as our number one priority. Our round-the-clock support team is available to help and assist you with any issues anytime, anywhere. </p>
+              <p className="stack-p"> Strategic Jobseek is a community that values your trust and safety as our number one priority. Our round-the-clock support team is available to help and assist you with any issues anytime, anywhere. </p>
               </div>
           </Stack>
         </Col>
@@ -152,7 +152,7 @@ function TalentInfo() {
                 </div>
                 
                 <div className="stackk "> <i class="fa fa-check-square-o" aria-hidden="true"></i> FIND SUPPORT
-                <p className="stack-p"> Quantacell is a community that values your trust and safety as our number one priority. Our round-the-clock support team is available to help and assist you with any issues anytime, anywhere. </p>
+                <p className="stack-p"> Strategic Jobseek is a community that values your trust and safety as our number one priority. Our round-the-clock support team is available to help and assist you with any issues anytime, anywhere. </p>
                 </div>
             </Stack>
           </Col>

@@ -106,7 +106,7 @@ export default function footer() {
         <section className=''>
           <MDBRow>
             <MDBCol lg='3' md='5' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Quantacell</h5>
+              <h5 className='text-uppercase'>Strategic Jobseek</h5>
             <p className='ul-p'> 
               <ul className='list-unstyled mb-0' id='col2'>
                 <li>
@@ -221,7 +221,7 @@ export default function footer() {
       <div className='text-center p-3' id='copyryt'>
         © 2022 Copyright:
         <a className='text-white' href='index.html'>
-        <span> QuantaCell.com by</span>
+        <span> SampleWebsite.com by</span>
         </a>
         <span> AENP Co.</span>
       </div>

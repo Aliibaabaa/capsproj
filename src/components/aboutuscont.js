@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Stack from 'react-bootstrap/Stack';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
 
 function AboutUsContent() {
   return (
@@ -107,9 +108,10 @@ function AboutUsContent() {
           </Col>
 
           <Col lg={6} className="chead">
-            <Button  variant="light" className='btn2' id='btn2'>
+          <Link to="/client" > <Button  variant="light" className='btn2' id='btn2'>
                 HIRE A TALENT NOW! <i class="fa fa-handshake-o" > </i>
               </Button>
+              </Link>
           </Col>
         </Row>
 
